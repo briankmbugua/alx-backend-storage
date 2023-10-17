@@ -1,4 +1,4 @@
-// update and add a property to a document
+// update by adding a new property to a document
 db.school.updateMany(
     { name: "Holberton school"},
     { $set: { address: "972 Mission street"}}
