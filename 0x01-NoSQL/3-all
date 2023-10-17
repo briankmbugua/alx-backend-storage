@@ -1,3 +1,2 @@
-// List all documents in a collection
-use my_db
+// Lists all documents in the school collection.
 db.school.find()
